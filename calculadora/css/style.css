@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(90deg,black,gray,white);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color:rgb(207, 46, 46)
+}
+.bsoma{
+    text-decoration: none;
+    background-color: #51b832;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 1px 5px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.bmenos{
+    text-decoration: none;
+    background-color: #bd1313;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 1px 5px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.bmulti{
+    text-decoration: none;
+    background-color: #af588b;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 1px 5px;
+    display: inline-block;
+    border-radius: 15px;
+}
+.bdivi{
+    text-decoration: none;
+    background-color: #689dc0;
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 1px 5px;
+    display: inline-block;
+    border-radius: 15px;
+}

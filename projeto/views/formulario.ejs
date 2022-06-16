@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <p>
+        <a href="/">Home</a>
+        <a href="/page1">Página 1</a>
+        <a href="/page2">Contato</a>
+        <a href="/formulario">Formulário</a>
+    </p>
+    <form>
+        <p><input type="text" name="dsNome" id="dsNome" placeholder="Digite seu nome"></p>
+        <p><input type="text" name="nrIdade" id="nrIdade" placeholder="Digite sua idade"></p>
+        <p>
+            <input type="radio" name="ieNota" value="1" checked>Boa
+            <input type="radio" name="ieNota" value="2">Ótima
+            <input type="radio" name="ieNota" value="3">Razoável
+            <input type="radio" name="ieNota" value="4">Ruim
+        </p>
+        <button type="submit" value="enviar" onclick='this.form.action ="formAction";'>Enviar</button>
+        <button type="reset" value="limpar">Limpar</button>
+
+    </form>
+</body>
+
+</html>
